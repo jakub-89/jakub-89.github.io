@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kondela zadanie</title>
+	<style type="text/css">
+		body {
+			background-color: #1D1F2A; 
+			font-family: Arial, Helvetica, sans-serif; 
+			font-size: 18px; 
+			color: #fff; 
+			background-image: url(parik-prst-tmavy.svg), url(postel.svg);
+			background-position: right bottom, left top;
+			background-attachment: fixed, fixed;
+			background-repeat: no-repeat, no-repeat;
+			background-size: 15%, 30%;
+			min-height: 98vh;
+    		display: flex;
+    		flex-direction: column;
+		}
+		
+		.valentin-img{
+			padding-top: 3em;
+			width: 100%;
+			text-align: center;
+		}
+
+		.valentin-img img {
+			width: 20em;
+			height: auto;
+		}
+
+
+		.valentin a {color: #D9E1E2; 
+			text-decoration: none; 
+			text-align: center;
+		}
+
+		.valentin a:hover {color: #DA1984;}
+
+		.valentin {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			padding-top: 6em;		
+		}
+
+		.valentin a {
+			margin: 1em 2em;
+		}
+
+		.kondela, .facebook, .instagram, .google {
+			display: block;
+			width: 6em;
+			padding-top: 6em;
+			padding-bottom: 1em;
+			padding-right: 1em;
+			padding-left: 1em;
+			border: 1px solid #D9E1E2;			
+			background-size: 4em 4em;
+			background-repeat: no-repeat;
+			background-position: 2em 1em;
+		}
+
+		.kondela {
+			background-image: url(kondela-a.svg);
+		}
+
+		.kondela:hover {
+			background-image: url(kondela-b.svg);
+			border-color:  #DA1984;
+		}
+
+		.facebook {
+			background-image: url(facebook-a.svg);
+		}
+
+		.facebook:hover {
+			background-image: url(facebook-b.svg);
+			border-color:  #DA1984;
+		}
+
+		.instagram {
+			background-image: url(instagram-a.svg);
+		}
+
+		.instagram:hover {
+			background-image: url(instagram-b.svg);
+			border-color:  #DA1984;
+		}
+
+		.google {
+			background-image: url(google-a.svg);
+		}
+
+		.google:hover {
+			background-image: url(google-b.svg);
+			border-color:  #DA1984;
+		}
+
+		.kondela-logo {
+			margin-top: auto;
+			padding-bottom: 1em;
+			text-align: center;
+   			width: 100%;
+		}
+
+		.kondela-logo img {
+			width: 6em;
+			height: auto;
+		}
+
+@media only screen and (max-width: 767px) {
+	body {background-image: none;}
+	.valentin {padding-bottom: 4em; padding-top: 4em;}
+	.valentin-img img {width: 16em;}
+}
+
+@media only screen and (max-width: 1024px) {
+	.valentin-img img {width: 16em;}	
+}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="valentin-img">
+		<img src="valentin.svg">
+	</div>
+	<div class="valentin">
+			<div class="odkaz">
+				<a href="https://drive.google.com/file/d/14dNXensY9zsPXIwGuLvMcRqquPfigZ6h/view?usp=sharing" target="_blank" class="kondela">Slider na web</a>
+			</div>
+			<div class="odkaz">
+				<a href="https://drive.google.com/file/d/1ebiYPqM1hM1-LdS9B6i6WQZY3SLR_8Xh/view?usp=sharing" target="_blank" class="facebook">Facebook post</a>
+			</div>
+			<div class="odkaz">
+				<a href="https://youtube.com/shorts/trFUQ__DMxM?feature=share" target="_blank" class="instagram">Instagram story</a>
+			</div>
+			<div class="odkaz">
+				<a href="https://drive.google.com/file/d/1W4HAa6-jPKeKJlN6Ym2Q0zmLu1V8Mtgx/view?usp=sharing" target="_blank" class="google">Google<br> Ads</a>
+			</div>
+	</div>
+	<div class="kondela-logo"><img src="logo-kondela.svg"></div>
+</body>
+</html>
